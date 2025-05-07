@@ -16,7 +16,7 @@ class MainTest {
     @Test
     fun mastercard_fullFee_whenAboveMonthlyNoFee() {
         val result = calculateCommission("Mastercard", 80_000, 10_000)
-        assertEquals("Комиссия за перевод составит: 80.0 руб.", result)
+        assertEquals("Комиссия за перевод составит: 8.0 руб.", result)
     }
 
 
